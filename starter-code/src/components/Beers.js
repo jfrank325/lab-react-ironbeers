@@ -12,7 +12,7 @@ class Beers extends React.Component {
       this.setState({
         allBeers: res.data,
       });
-      console.log(res.data);
+      // console.log(res.data);
     });
   }
 
@@ -34,6 +34,7 @@ class Beers extends React.Component {
                   </p>
                 </div>
               </div>
+              <hr />
             </Link>
           );
         })}

@@ -27,6 +27,12 @@
   align-items: center;
 }
 
+.beers-container {
+  /* background-image: url('../../starter-code/public/images/beers.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
